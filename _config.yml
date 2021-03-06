@@ -1,15 +1,15 @@
-title:             Life without Potatoes
-email:             lowcarbkitchenstellies@gmail.com
+title:             Nessie's Keto Kitchen
+email:             nessiesketokitchen@gmail.com
 description:       Low-carb Lifestyle, Recipes & Tips
 author:            Annés Fourie
 baseurl:           "/"
-url:               "http://lifewithoutpotatoes.github.io"
+url:               "https://nessiesketokitchen.github.io"
 
 # Social Profiles
 # twitter_username:  SBootstrap
 # github_username:   BlackrockDigital
-instagram_username: lowcarbkitchenstellies
-facebook_username: lowcarbkitchenstellies
+instagram_username: nessiesketokitchen
+facebook_username: nessiesketokitchen
 
 # Build settings
 markdown:          kramdown
