@@ -1,0 +1,20 @@
+title:             Life without Potatoes
+email:             lowcarbkitchenstellies@gmail.com
+description:       Low-carb Lifestyle, Recipes & Tips
+author:            Annés Fourie
+baseurl:           "/"
+url:               "http://lifewithoutpotatoes.github.io"
+
+# Social Profiles
+# twitter_username:  SBootstrap
+# github_username:   BlackrockDigital
+instagram_username: lowcarbkitchenstellies
+facebook_username: lowcarbkitchenstellies
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

@@ -1,0 +1,110 @@
+// Global styling for this template
+body {
+  font-size: 20px;
+  color: $gray-900;
+  background-color: $white;
+  @include serif-font;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+  a {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  @include sans-serif-font;
+}
+
+a {
+  color: $gray-900;
+  @include transition-all;
+  &:focus,
+  &:hover {
+    color: $primary;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  color: $gray-600;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+::-moz-selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  color: $white;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: $white;
+  background: transparent;
+}
+
+// Fancy lists
+ol {
+  list-style: none;
+  counter-reset: item;
+}
+ol li {
+  counter-increment: item;
+  margin-bottom: 15px;
+}
+ol li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: $blue;
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+a {
+  color: $primary;
+}
+div.panel {
+  border: 1px solid $gray-500;
+  border-radius: 10px;
+  padding: 10px;
+}
+span.bold {
+  font-weight: bold;
+  font-size: 24px;
+}
